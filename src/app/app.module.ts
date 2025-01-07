@@ -5,7 +5,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SimpleTestComponent } from './test.component';
 import { MyObjectListComponent } from './myobject-list/myobject-list.component';
 import { MyObjectFormComponent } from './myobject-form/myobject-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
