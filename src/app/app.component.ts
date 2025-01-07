@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterModule, RouterOutlet, Router, Routes } from '@angular/router';
 
 @Component({
@@ -15,8 +15,5 @@ import { RouterModule, RouterOutlet, Router, Routes } from '@angular/router';
 export class AppComponent {
   title = 'client';
   constructor(private router: Router) {}
-	ngOnInit(): void {
-		console.log("hellow whorld");
-  }
 }
 

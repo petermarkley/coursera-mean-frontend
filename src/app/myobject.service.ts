@@ -12,7 +12,9 @@ export class MyObjectService {
   private url = `${environment.baseURL}`;
   private myObjects$: Subject<MyObject[]> = new Subject();
 
-  constructor(private httpClient: HttpClient) { console.log("instantiating MyObjectService"); }
+  constructor(private httpClient: HttpClient) {
+  	console.log("instantiating MyObjectService with environment:", environment);
+  }
 
   private refreshMyObjects(){
     this.httpClient.get<MyObject[]>(`${this.url}/objects`)

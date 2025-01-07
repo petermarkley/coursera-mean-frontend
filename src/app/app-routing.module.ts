@@ -16,8 +16,6 @@ const routes: Routes = [
 	exports: [RouterModule]
 })
 export class AppRoutingModule {
-	constructor(private router: Router) {
-		console.log('Current URL:', this.router.url);
-	}
+	constructor(private router: Router) {}
 }
 
